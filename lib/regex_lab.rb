@@ -1,5 +1,10 @@
-def starts_with_a_vowel?(word)
 
+def starts_with_a_vowel?(word)
+word = apple 
+word.scan(/\w+[aeiou]/)
+def word 
+  puts "True"
+end
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
