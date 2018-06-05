@@ -1,8 +1,8 @@
 
 def starts_with_a_vowel?(word)
-word = apple 
+word = apple
 word.scan(/\w+[aeiou]/)
-def word 
+def word
   puts "True"
 end
 end
